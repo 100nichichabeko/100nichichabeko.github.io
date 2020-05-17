@@ -1,7 +1,7 @@
  {
   margin: 0px;
   padding: 0px;
-
+  width: 480px;
 }
 
 body {
@@ -14,7 +14,7 @@ header {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 200px;
-  width: 480px;
+  /*width: 480px;*/
   margin: 0px;
   /*padding: 30px 10%  50px 10%;
   フッダーを固定する方法はこれです↓
@@ -99,10 +99,10 @@ header {
   /*background-color: #feeee3;*/
   height: 600px;
   color: #ed145b;
-  font-size: 50px;
+  font-size: 32px;
   text-align: center;
-  margin: auto;
-  padding-top: 200px;
+  margin: auto 0;
+  /*padding-top: 200px;*/
   background-image: url("flower.png.png");
    background-position: center top;
    background-repeat: no-repeat;
@@ -116,10 +116,10 @@ header {
 /*トップの色全体的に変えた方がいいな*/
 .count {
   color: #ff1800;
-  font-size: 150px;
+  font-size: 120px;
   font-family: "HG創英角ﾎﾟｯﾌﾟ体";
-  padding-top: 50px;
-  padding-left: 80px;
+  /*padding-top: 50px;*/
+  padding-left: 50%;
 }
 
 
@@ -127,13 +127,17 @@ header {
   display: inline-block;
 }
 
+.text1 {
+  padding-left: 20%;
+}
+
 .text2 {
-  padding-left: 80px;
+  padding-left: 80%;
 }
 
 .text1, .text2 {
   font-size: 100px;
-  padding-top: 100px;
+  /*padding-top: 100px;*/
 }
 
 
