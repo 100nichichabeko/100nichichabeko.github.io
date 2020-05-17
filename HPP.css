@@ -1,7 +1,7 @@
  {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  width: 480px;
 }
 
 body {
@@ -24,8 +24,8 @@ header {
 }
 
 .header-logo {
-  width: 95%;
-  padding: 30px 0;
+  width: 98%;
+  padding: 15px 0;
 }
 
 
@@ -79,8 +79,7 @@ header {
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
-  margin-top: 20px;
-  margin-left: 1%;
+  margin-top: 20px 3% 0 3%;
 }
 
 .header-list a:hover {
@@ -116,7 +115,7 @@ header {
 /*トップの色全体的に変えた方がいいな*/
 .count {
   color: #ff1800;
-  font-size: 120px;
+  font-size: 100px;
   font-family: "HG創英角ﾎﾟｯﾌﾟ体";
   /*padding-top: 50px;*/
   padding-left: 20%;
@@ -136,7 +135,7 @@ header {
 }
 
 .text1, .text2 {
-  font-size: 100px;
+  font-size: 80px;
   /*padding-top: 100px;*/
 }
 
@@ -146,7 +145,7 @@ header {
  background-color: #fdeefd;
  height: 500px;
  display: block;
- padding: 0px 150px 150px 150px;
+ padding: 0px 10px 100px 10px;
 }
 
 
@@ -162,12 +161,12 @@ header {
 .greet-content {
   text-align: center;
   color: #666;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
 }
 
 .greet-content p {
-  margin: 25px;
+  margin: 20px;
 }
 
 .greet-content h1 {
@@ -177,7 +176,7 @@ header {
 
 h6 {
   font-family: "MS明朝";
-  font-size: 18px;
+  font-size: 16px;
   /*padding-bottom: 12px;*/
 }
 
@@ -185,7 +184,7 @@ h6 {
 .profile {
   background-color: #feeee3;
   height: 500px;
-  padding: 0px 100px 150px 100px;
+  padding: 0px 10px 100px 10px;
   text-align: center;
 }
 
@@ -199,11 +198,11 @@ h6 {
 }
 
 .profile-icon img {
-  margin: 20px;
+  margin: 10px;
 }
 
 .profile-content h2 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .profile-content span {
@@ -212,7 +211,7 @@ h6 {
 
 .profile-content p {
   color: #666;
-  font-size: 20px;
+  font-size: 18px;
   margin: 25px;
 
 }
@@ -245,14 +244,14 @@ h6 {
 
 .wish-list ol {
   list-style-type: decimal;
-  padding-left: 80px;
+  /*padding-left: 80px;*/
 }
 
 
 .inside-wish, .outside-wish {
-  float: left;
-  width: 50%;
-  padding: 25px 0 10px 0;
+  /*float: left;
+  width: 50%;*/
+  padding: 20px 0 10px 0;
   font-family: "UD デジタル 教科書体 NP-B";
 }
 
@@ -263,7 +262,7 @@ h6 {
 }
 
 .inside-wish li, .outside-wish li {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
   /*margin-top: 7px;*/
   color: #4d4d4d;
@@ -273,7 +272,7 @@ h6 {
 .inside-wish span, .outside-wish span{
   font-weight: bold;
   font-family: "HG創英角ｺﾞｼｯｸ体";
-  font-size: 24px;
+  font-size: 20px;
   color: red;
 }
 
