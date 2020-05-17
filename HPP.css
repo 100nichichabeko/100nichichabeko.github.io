@@ -14,6 +14,7 @@ header {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 500px;
+  width: 100%;
   /*padding: 30px 10%  50px 10%;
   フッダーを固定する方法はこれです↓
   position: fixed;
