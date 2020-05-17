@@ -1,0 +1,371 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  font-family:"Yu Gothic UI semibold";
+}
+
+header {
+  /*background-color: #6495ed;*/
+  /*background: -webkit-repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);*/
+  background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
+  color: #fff;
+  height: 300px;
+  /*padding: 30px 10%  50px 10%;
+  フッダーを固定する方法はこれです↓
+  position: fixed;
+    top: 0;
+  z-index: 10;*/
+}
+
+.header-logo {
+  padding: 30px 7%;
+}
+
+
+/*.header-box {
+  weight: 98%;
+  margin: 0 auto;
+}*/
+
+/*.box14 a {
+    /*padding: 0.2em 0.5em;
+    margin: 2em 0;*/
+    /*background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
+    border: dashed 2px white;
+    margin: 0px;
+    padding-bottom: 10px;
+}*/
+
+/*.header-logo {
+  color:#fffff9;
+  font-size: 100px;
+  padding: 50px 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}*/
+
+
+/*.hedder-logo span {
+  margin: 10px;
+}*/
+
+
+
+/*.header-list {
+  padding: 0 250px;
+}*/
+
+/*なぜかカーソル合わせの色変更が変わりません！！*/
+
+
+
+/*.header-list {
+ padding: 0% 10%;
+
+}*/
+
+.header-list a {
+  font-size: 20px;
+  color: #191970;
+  padding: 5px 3%;
+  display: inline-block;
+  list-style: none;
+  background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
+  border: dashed 2px white;
+  margin-top: 20px;
+  margin-left: 0.5%;
+}
+
+.header-list a:hover {
+  background: none;
+  background-color: #64b6ed;
+}
+
+
+/*ここまでがヘッダー！！*/
+
+
+
+/*メインの所だよ～*/
+
+.countdown {
+  /*background-color: #feeee3;*/
+  height: 600px;
+  color: #ed145b;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 200px;
+  background-image: url("flower.png.png");
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family:"HG創英角ﾎﾟｯﾌﾟ体";
+  /*background-image: url("flower.png");*/
+}
+
+/*カウントダウンのキャベ子が死ぬまで文字がはかなくならないのは何故でしょう？？*/
+
+/*トップの色全体的に変えた方がいいな*/
+.count {
+  color: #ff1800;
+  font-size: 150px;
+  font-family: "HG創英角ﾎﾟｯﾌﾟ体";
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+
+.text1, .count, .text2 {
+  display: inline-block;
+}
+
+.text2 {
+  padding-left: 80px;
+}
+
+.text1, .text2 {
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+
+/*はじめに*/
+.greeting {
+ background-color: #fdeefd;
+ height: 500px;
+ display: block;
+ padding: 0px 150px 150px 150px;
+}
+
+
+.greet-logo {
+  text-align: center;
+  color: #ec008c;
+  font-size: 40px;
+  font-family:"HG創英角ﾎﾟｯﾌﾟ体";
+  display: block;
+  padding-top: 60px;
+}
+
+.greet-content {
+  text-align: center;
+  color: #666;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.greet-content p {
+  margin: 25px;
+}
+
+.greet-content h1 {
+  font-size: 35px;
+  padding: 15px 0;
+}
+
+h6 {
+  font-family: "MS明朝";
+  font-size: 18px;
+  /*padding-bottom: 12px;*/
+}
+
+/*プロフィール*/
+.profile {
+  background-color: #feeee3;
+  height: 500px;
+  padding: 0px 100px 150px 100px;
+  text-align: center;
+}
+
+
+.profile-logo {
+  color: #f26c4f;
+  font-size: 40px;
+  padding-top: 35px;
+  font-family:"HG創英角ﾎﾟｯﾌﾟ体";
+  display: block;
+}
+
+.profile-icon img {
+  margin: 20px;
+}
+
+.profile-content h2 {
+  font-size: 30px;
+}
+
+.profile-content span {
+  color: #666;
+}
+
+.profile-content p {
+  color: #666;
+  font-size: 20px;
+  margin: 25px;
+
+}
+
+.prof-link {
+  padding-top: 25px;
+  text-decoration: underline;
+}
+
+
+.prof-link a:active {
+  background-color: #ffa500;
+}
+
+/*リスト*/
+.wish-list {
+  background-color: #fffee7;
+  height: 1000px;
+  padding: 0px 50px 100px 50px;
+}
+
+.wishlist-logo {
+  color: #fbb568;
+  font-size: 40px;
+  font-family:"HG創英角ﾎﾟｯﾌﾟ体";
+  display: block;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.wish-list ol {
+  list-style-type: decimal;
+  padding-left: 80px;
+}
+
+
+.inside-wish, .outside-wish {
+  float: left;
+  width: 50%;
+  padding: 25px 0 10px 0;
+  font-family: "UD デジタル 教科書体 NP-B";
+}
+
+
+.inside-wish h2, .outside-wish h2 {
+  margin: 15px;
+  padding-left: 70px;
+}
+
+.inside-wish li, .outside-wish li {
+  font-size: 22px;
+  line-height: 30px;
+  /*margin-top: 7px;*/
+  color: #4d4d4d;
+}
+
+
+.inside-wish span, .outside-wish span{
+  font-weight: bold;
+  font-family: "HG創英角ｺﾞｼｯｸ体";
+  font-size: 24px;
+  color: red;
+}
+
+/*カレンダー*/
+.calender {
+  height: 1000px;
+  background-color: #e6fde8;
+  padding: 0px 50px 50px 50px;
+}
+
+.calender-logo {
+  font-size: 40px;
+  text-align: center;
+  color: #30b54a;
+  font-family:"HG創英角ﾎﾟｯﾌﾟ体";
+  display: block;
+  padding-top: 35px;
+}
+
+.calender-content iframe {
+  padding: 50px;
+  padding-left: 100px;
+   width: 90%;
+        height: 650px;
+}
+
+@media all and (max-width: 767px)
+    { .GoogleCalendar iframe
+        { height: 400px;  }
+    }
+
+.calender-text {
+  text-align: center;
+  color: #666;
+}
+
+/*ここからフッター*/
+footer {
+  /*background-color: #6495ed;*/
+  background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
+  color: #fff;
+  height: 80px;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  /*もし他のリンク先が消えちゃったら変えてください～*/
+}
+
+/*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
+.logo1 {
+  font-size: 20px;
+  padding-left: 350px;
+}
+
+.logo2 {
+  font-size: 20px;
+  padding-left: 300px;
+
+}
+
+.logo1, .logo2 {
+  float: left;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+.logo-icon1, .logo-icon2 {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo-icon1{
+  padding-left: 343px;
+}
+
+.logo-icon2 {
+   padding-left: 300px;
+}
+
+.logo00 {
+  clear:both;
+  /*クリアーを使うと一瞬で上のfloar: left;の周り込みが消えるよ。*/
+}
+
+.logo1:hover, .logo-icon1:hover, .logo2:hover, .logo-icon2:hover{
+  opacity: 0.7;
+}
+
+.logo-icon1:active, .logo-icon2:active{
+  position: relative;
+  top: 4px;
+}
+
+.logo3 {
+  font-size: 15px;
+  padding-top: 50px;
+  float: right;
+  padding-left: 580px;
+}
