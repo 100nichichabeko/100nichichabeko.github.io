@@ -43,9 +43,24 @@ header {
     padding-bottom: 10px;
 }*/
 
-
-
 .header-list {
+  padding: 0 10%;
+}
+
+.header-list a {
+  font-size: 20px;
+  color: #191970;
+  padding: 5px 7%;
+  display: inline-block;
+  list-style: none;
+  background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
+  border: dashed 2px white;
+  margin-top: 10px;
+  /* margin-left: 0.5%; */
+}
+
+@media all and (max-width: 1030px)
+{.header-list {
   padding: 0 5%;
 }
 
@@ -58,7 +73,11 @@ header {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
   margin-top: 10px;
+  /* margin-left: 0.5%; */
 }
+}
+
+
 
 .header-list a:hover {
   background: none;
