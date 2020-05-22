@@ -97,7 +97,7 @@ header {
 .countdown {
   /*background-color: #feeee3;*/
   height: 600px;
-    width: 480px;
+    width: 100%;
   color: #ed145b;
   font-size: 32px;
   text-align: center;
@@ -145,7 +145,7 @@ header {
 .greeting {
  background-color: #fdeefd;
  height: 500px;
-   width:480px;
+   width: 100%;
  display: block;
  padding: 0px 10px 100px 10px;
 }
@@ -186,7 +186,7 @@ h6 {
 .profile {
   background-color: #feeee3;
   height: 500px;
-    width:480px;
+    width: 100%;
   padding: 0px 10px 100px 10px;
   text-align: center;
 }
@@ -294,7 +294,7 @@ h6 {
 /*カレンダー*/
 .calender {
   height: 700px;
-     width:480px;
+     width: 100%;
   background-color: #e6fde8;
 }
 
@@ -331,7 +331,7 @@ footer {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 80px;
-  width: 480px;
+  width: 100%;
   /*padding: 30px;*/
 }
 
