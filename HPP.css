@@ -343,7 +343,7 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding: 10px 0 5px 30%;
+  padding: 10px 0 5px 20%;
 }
 
 .logo2 {
@@ -389,6 +389,7 @@ a {
 .logo3 {
   font-size: 15px;
   padding-top: 30px;
-  float: right;
+  padding-left: 50%;
+  /*float: right;*/
   /*padding-left: 580px;*/
 }
