@@ -292,6 +292,7 @@ h6 {
 .calender-text {
   text-align: center;
   color: #666;
+  padding-top:30px;
 }
 
 /*ここからフッター*/
@@ -312,12 +313,12 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding: 8px 0 5px 21%;
+  padding: 8px 0 5px 18%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding: 8px 0 5px 20%;
+  padding: 8px 0 5px 18%;
 
 }
 
@@ -334,11 +335,11 @@ a {
 }
 
 .logo-icon1{
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 .logo-icon2 {
-   padding-left: 19%;
+   padding-left: 17%;
 }
 
 .logo00 {
@@ -357,7 +358,7 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding-top: 80px;
+  padding-top: 90px;
   padding-right: 1%;
   float: right;
   /*padding-left: 580px;*/
