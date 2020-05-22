@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+
 }
 
 body {
@@ -12,10 +13,8 @@ header {
   /*background: -webkit-repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);*/
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
-  height: 200px;
-    width: 100%;
-  margin: 0px;
-  
+  height: 150px;
+  padding: 30px 1% 70px 1%;
   /*フッダーを固定する方法はこれです↓
   position: fixed;
     top: 0;
@@ -23,16 +22,17 @@ header {
 }
 
 .header-box {
-    width: 100%;
-    margin: 0 auto;
-    align-content: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
+
 .header-logo {
-  height: 100px;
+  height: 120px;
   width: 98%;
   padding: 15px 1%;
 }
+
 
 /*.box14 a {
     /*padding: 0.2em 0.5em;
@@ -43,22 +43,69 @@ header {
     padding-bottom: 10px;
 }*/
 
+/*.header-logo {
+  color:#fffff9;
+  font-size: 100px;
+  padding: 50px 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}*/
 
+
+/*.hedder-logo span {
+  margin: 10px;
+}*/
+
+
+
+/*.header-list {
+  padding: 0 250px;
+}*/
+
+/*なぜかカーソル合わせの色変更が変わりません！！*/
+
+
+
+/*.header-list {
+ padding: 0% 10%;
+
+}*/
 
 .header-list {
- padding: 0 10%;
+  padding: 0 10%;
 }
 
 .header-list a {
   font-size: 20px;
   color: #191970;
-  /*padding: 5px 3%;*/
+  padding: 5px 7%;
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
-  /*margin: 20px 4px 0 0;*/
+  margin-top: 10px;
+  /* margin-left: 0.5%; */
 }
+
+@media all and (max-width: 1030px)
+{.header-list {
+  padding: 0 5%;
+}
+
+.header-list a {
+  font-size: 20px;
+  color: #191970;
+  padding: 5px 6%;
+  display: inline-block;
+  list-style: none;
+  background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
+  border: dashed 2px white;
+  margin-top: 10px;
+  /* margin-left: 0.5%; */
+}
+}
+
+
 
 .header-list a:hover {
   background: none;
@@ -75,12 +122,11 @@ header {
 .countdown {
   /*background-color: #feeee3;*/
   height: 600px;
-    width: 100%;
   color: #ed145b;
-  font-size: 32px;
+  font-size: 50px;
   text-align: center;
-  margin: auto 0;
-  /*padding-top: 200px;*/
+  margin: auto;
+  padding-top: 200px;
   background-image: url("flower.png.png");
    background-position: center top;
    background-repeat: no-repeat;
@@ -91,16 +137,13 @@ header {
 
 /*カウントダウンのキャベ子が死ぬまで文字がはかなくならないのは何故でしょう？？*/
 
-.coutndown-letter {
-  padding-top: 150px;
-}
-
+/*トップの色全体的に変えた方がいいな*/
 .count {
   color: #ff1800;
-  font-size: 100px;
+  font-size: 150px;
   font-family: "HG創英角ﾎﾟｯﾌﾟ体";
   padding-top: 50px;
-  padding-left: 4%;
+  padding-left: 80px;
 }
 
 
@@ -108,9 +151,13 @@ header {
   display: inline-block;
 }
 
+.text2 {
+  padding-left: 80px;
+}
+
 .text1, .text2 {
-  font-size: 80px;
-  padding-left: 4%;
+  font-size: 100px;
+  padding-top: 100px;
 }
 
 
@@ -118,9 +165,8 @@ header {
 .greeting {
  background-color: #fdeefd;
  height: 500px;
-   width: 100%;
  display: block;
- padding: 0px 0 100px 0;
+ padding: 0px 20px 150px 20px;
 }
 
 
@@ -136,12 +182,12 @@ header {
 .greet-content {
   text-align: center;
   color: #666;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
 }
 
 .greet-content p {
-  margin: 20px;
+  margin: 25px;
 }
 
 .greet-content h1 {
@@ -151,15 +197,15 @@ header {
 
 h6 {
   font-family: "MS明朝";
-  font-size: 16px;
+  font-size: 18px;
+  /*padding-bottom: 12px;*/
 }
 
 /*プロフィール*/
 .profile {
   background-color: #feeee3;
   height: 500px;
-    width: 100%;
-  padding: 0px 0 100px 0;
+  padding: 0px 0 150px 0;
   text-align: center;
 }
 
@@ -168,19 +214,16 @@ h6 {
   color: #f26c4f;
   font-size: 40px;
   padding-top: 35px;
-  margin-bottom: 5px;
   font-family:"HG創英角ﾎﾟｯﾌﾟ体";
   display: block;
 }
 
 .profile-icon img {
-  margin: 10px;
-  height: 10%;
-  width:10%;
+  margin: 20px;
 }
 
 .profile-content h2 {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .profile-content span {
@@ -189,13 +232,13 @@ h6 {
 
 .profile-content p {
   color: #666;
-  font-size: 16px;
-  margin: 25px;
-  line-height: 16px;
+  font-size: 20px;
+  margin: 25px 0;
+
 }
 
 .prof-link {
-  /*padding-top: 25px;*/
+  padding-top: 25px;
   text-decoration: underline;
 }
 
@@ -207,9 +250,27 @@ h6 {
 /*リスト*/
 .wish-list {
   background-color: #fffee7;
-  height: 1300px;
-    width: 100%;
+  height: 1050px;
+  padding: 0px 10px 100px 10px;
 }
+
+@media all and (max-width: 1034px)
+  {.wish-list {
+  height: 1300px;
+  padding: 0px 10px 100px 10px;
+}
+  }
+
+@media all and (max-width: 914px)
+  {.wish-list {
+  height: 1550px;
+  padding: 0px 0 100px 0;
+}
+
+.wish-list ol {
+  padding-left: 10px;
+}
+  }
 
 .wishlist-logo {
   color: #fbb568;
@@ -221,34 +282,27 @@ h6 {
 }
 
 .wish-list ol {
-   list-style-type: decimal; 
-  /*padding-left: 80px;*/
+  list-style-type: decimal;
+  padding-left: 80px;
 }
 
 
 .inside-wish, .outside-wish {
+  float: left;
+  width: 50%;
+  padding: 25px 0 10px 0;
   font-family: "UD デジタル 教科書体 NP-B";
 }
 
 
 .inside-wish h2, .outside-wish h2 {
-  font-size: 20px;
-  margin: 8px;
-  padding-top: 10px;
+  margin: 15px;
   padding-left: 70px;
 }
 
-.inside-wish li {
-  font-size: 14px;
-  line-height: 20px;
-  padding-left: 20%;
-  color: #4d4d4d;
-}
-
-.outside-wish li {
- font-size: 14px;
-  line-height: 20px;
-  padding-left: 20%;
+.inside-wish li, .outside-wish li {
+  font-size: 22px;
+  line-height: 30px;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
@@ -257,15 +311,15 @@ h6 {
 .inside-wish span, .outside-wish span{
   font-weight: bold;
   font-family: "HG創英角ｺﾞｼｯｸ体";
-  font-size: 16px;
+  font-size: 24px;
   color: red;
 }
 
 /*カレンダー*/
 .calender {
-  height: 800px;
-     width: 100%;
+  height: 1000px;
   background-color: #e6fde8;
+  padding: 0px 50px 50px 50px;
 }
 
 .calender-logo {
@@ -278,16 +332,14 @@ h6 {
 }
 
 .calender-content iframe {
-  /*padding: 50px;
-  padding-left: 100px;*/
-  width: 94%;
-  height: 500px;
-  padding: 50px 0 30px 3%;
+  padding: 50px;
+  width: 90%;
 }
+
 
 @media all and (max-width: 767px)
     { .GoogleCalendar iframe
-        { height: 300px;  }
+        { height: 400px;  }
     }
 
 .calender-text {
@@ -300,9 +352,8 @@ footer {
   /*background-color: #6495ed;*/
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
-  height: 140px;
-  width: 100%;
-  /*padding: 30px;*/
+  height: 80px;
+  padding: 30px;
 }
 
 a {
@@ -313,33 +364,33 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding: 8px 0 5px 21%;
+  padding-left: 30%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding: 8px 0 5px 20%;
+  padding-left: 20%;
 
 }
 
 .logo1, .logo2 {
   float: left;
-  /*padding-bottom: 0px;
-  padding-right: 0px;*/
+  padding-bottom: 0px;
+  padding-right: 0px;
 }
 
 .logo-icon1, .logo-icon2 {
   float: left;
-  /*padding-top: 10px;
-  padding-bottom: 10px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo-icon1{
-  padding-left: 20%;
+  padding-left: 29.3%;
 }
 
 .logo-icon2 {
-   padding-left: 19%;
+   padding-left: 20%;
 }
 
 .logo00 {
@@ -358,8 +409,6 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding-top: 80px;
-  padding-right: 1%;
+  padding-top: 50px;
   float: right;
-  /*padding-left: 580px;*/
 }
