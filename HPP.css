@@ -25,15 +25,14 @@ header {
 }
 
 .header-logo {
-  width: 98%;
+ height: 140px; 
+ width: 100%;
   padding: 15px 0;
 }
 
-
-/*.header-box {
-  weight: 98%;
-  margin: 0 auto;
-}*/
+.header-box {
+ height: 130px;
+ width : 97%;
 
 /*.box14 a {
     /*padding: 0.2em 0.5em;
@@ -80,7 +79,7 @@ header {
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
-  margin: 20px 3% 0 3%;
+  margin: 20px 4px 0 0;
 }
 
 .header-list a:hover {
@@ -197,6 +196,7 @@ h6 {
   color: #f26c4f;
   font-size: 40px;
   padding-top: 35px;
+  margin-bottom: 5px;
   font-family:"HG創英角ﾎﾟｯﾌﾟ体";
   display: block;
 }
@@ -272,14 +272,15 @@ h6 {
 .inside-wish li {
   font-size: 12px;
   line-height: 18px;
+  padding-left: 20%;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
 
 .outside-wish li {
  font-size: 12px;
-  line-height: 19px;
-  padding-bottom: 30px;
+  line-height: 18px;
+  padding-left: 20%;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
