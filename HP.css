@@ -193,13 +193,13 @@ header {
 
 .greet-content h1 {
   font-size: 35px;
-  padding-top: 15px;
+  padding: 15px 0;
 }
 
 h6 {
   font-family: "MS明朝";
   font-size: 18px;
-  /*padding-bottom: 12px;*/
+  padding-top: 50px;
 }
 
 .start-link a {
@@ -209,9 +209,9 @@ h6 {
 }
 
 .kotoba {
-  padding: 10px;
   font-size: 16px;
   color: gray;
+  padding: 10px;
 }
 /*プロフィール*/
 .profile {
