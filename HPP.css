@@ -46,13 +46,13 @@ header {
 
 
 .header-list {
- padding: 0 2%;
+ padding: 0 1%;
 }
 
 .header-list a {
   font-size: 18px;
   color: #191970;
-  padding: 5px 2%;
+  padding: 5px 1.5%;
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
@@ -358,7 +358,7 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding-top: 90px;
+  padding-top: 85px;
   padding-right: 1%;
   float: right;
   /*padding-left: 580px;*/
