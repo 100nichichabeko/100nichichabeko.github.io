@@ -201,6 +201,11 @@ h6 {
   /*padding-bottom: 12px;*/
 }
 
+.start-link {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
 /*プロフィール*/
 .profile {
   background-color: #feeee3;
