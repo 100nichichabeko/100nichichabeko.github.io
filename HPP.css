@@ -14,7 +14,7 @@ header {
   color: #fff;
   height: 200px;
     width: 100%;
-  /*margin: 0px;*/
+  margin: 0px;
   
   /*フッダーを固定する方法はこれです↓
   position: fixed;
@@ -29,7 +29,7 @@ header {
 }
 
 .header-logo {
-  height: 120px;
+  height: 100px;
   width: 98%;
   padding: 15px 1%;
 }
@@ -46,13 +46,13 @@ header {
 
 
 .header-list {
- padding: 0 5%;
+ padding: 0 10%;
 }
 
 .header-list a {
-  font-size: 18px;
+  font-size: 20px;
   color: #191970;
-  padding: 5px 1%;
+  /*padding: 5px 3%;*/
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
@@ -91,31 +91,26 @@ header {
 
 /*カウントダウンのキャベ子が死ぬまで文字がはかなくならないのは何故でしょう？？*/
 
-/*トップの色全体的に変えた方がいいな*/
+.coutndown-letter {
+  padding-top: 150px;
+}
+
 .count {
   color: #ff1800;
   font-size: 100px;
   font-family: "HG創英角ﾎﾟｯﾌﾟ体";
-  /*padding-top: 50px;*/
+  padding-top: 50px;
+  padding-left: 4%;
 }
 
 
 .text1, .count, .text2 {
   display: inline-block;
-  padding-left: 5%;
 }
-
-.text1 {
-  padding-top: 70px;
-}
-
-/*.text2 {
-  padding-left: 5%;
-}*/
 
 .text1, .text2 {
   font-size: 80px;
-  /*padding-top: 100px;*/
+  padding-left: 4%;
 }
 
 
@@ -125,7 +120,7 @@ header {
  height: 500px;
    width: 100%;
  display: block;
- padding: 0px 10px 100px 10px;
+ padding: 0px 0 100px 0;
 }
 
 
@@ -157,7 +152,6 @@ header {
 h6 {
   font-family: "MS明朝";
   font-size: 16px;
-  /*padding-bottom: 12px;*/
 }
 
 /*プロフィール*/
@@ -165,7 +159,7 @@ h6 {
   background-color: #feeee3;
   height: 500px;
     width: 100%;
-  padding: 0px 10px 100px 10px;
+  padding: 0px 0 100px 0;
   text-align: center;
 }
 
@@ -181,8 +175,8 @@ h6 {
 
 .profile-icon img {
   margin: 10px;
-  height: 15%;
-  width:15%;
+  height: 10%;
+  width:10%;
 }
 
 .profile-content h2 {
@@ -201,7 +195,7 @@ h6 {
 }
 
 .prof-link {
-  padding-top: 10px;
+  /*padding-top: 25px;*/
   text-decoration: underline;
 }
 
@@ -215,7 +209,6 @@ h6 {
   background-color: #fffee7;
   height: 1300px;
     width: 100%;
-  padding: 0px 3%;
 }
 
 .wishlist-logo {
@@ -228,36 +221,34 @@ h6 {
 }
 
 .wish-list ol {
-  list-style-type: decimal;
-  padding-left: 15%;
+   list-style-type: decimal; 
   /*padding-left: 80px;*/
 }
 
 
 .inside-wish, .outside-wish {
-  float: center;
-  width:98%;
-  /*width: 50%;
-  padding: 20px 0 10px 0;
-  font-family: "UD デジタル 教科書体 NP-B";*/
+  font-family: "UD デジタル 教科書体 NP-B";
 }
 
 
 .inside-wish h2, .outside-wish h2 {
+  font-size: 20px;
   margin: 8px;
-  /*padding-left: 70px;*/
+  padding-top: 10px;
+  padding-left: 70px;
 }
 
 .inside-wish li {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
-  /*margin-top: 7px;*/
+  padding-left: 20%;
   color: #4d4d4d;
 }
 
 .outside-wish li {
- font-size: 18px;
+ font-size: 14px;
   line-height: 20px;
+  padding-left: 20%;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
@@ -272,7 +263,7 @@ h6 {
 
 /*カレンダー*/
 .calender {
-  height: 700px;
+  height: 800px;
      width: 100%;
   background-color: #e6fde8;
 }
@@ -288,13 +279,10 @@ h6 {
 
 .calender-content iframe {
   /*padding: 50px;
-  padding-left: 100px;
-  padding-left: 1%;*/
-  align-item: center;
-  width: 98%;
+  padding-left: 100px;*/
+  width: 94%;
   height: 500px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding: 50px 0 30px 3%;
 }
 
 @media all and (max-width: 767px)
@@ -312,7 +300,7 @@ footer {
   /*background-color: #6495ed;*/
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
-  height: 80px;
+  height: 140px;
   width: 100%;
   /*padding: 30px;*/
 }
@@ -325,12 +313,12 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding: 10px 0 5px 20%;
+  padding: 8px 0 5px 21%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding: 10px 0 5px 20%;
+  padding: 8px 0 5px 20%;
 
 }
 
@@ -342,14 +330,12 @@ a {
 
 .logo-icon1, .logo-icon2 {
   float: left;
-  height: 8%;
-  width: 8%;
   /*padding-top: 10px;
   padding-bottom: 10px;*/
 }
 
 .logo-icon1{
-  padding-left: 19%;
+  padding-left: 20%;
 }
 
 .logo-icon2 {
@@ -372,9 +358,8 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding: 30px 0 5px 40%;
-  /*padding-top: 30px;
-  padding-left: 50%;
-  float: right;*/
+  padding-top: 80px;
+  padding-right: 1%;
+  float: right;
   /*padding-left: 580px;*/
 }
