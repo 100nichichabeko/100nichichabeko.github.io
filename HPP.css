@@ -57,7 +57,6 @@ header {
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
-  /*margin: 20px 4px 0 0;*/
 }
 
 .header-list a:hover {
@@ -138,6 +137,7 @@ header {
   color: #666;
   font-size: 18px;
   line-height: 20px;
+  padding-top: 25px;
 }
 
 .greet-content p {
@@ -152,6 +152,19 @@ header {
 h6 {
   font-family: "MS明朝";
   font-size: 16px;
+  padding-top: 40px;
+}
+
+.start-link a {
+  font-size: 26px;
+  text-decoration: underline;
+  padding-bottom: 25px;
+}
+
+.kotoba {
+  font-size: 16px;
+  color: gray;
+  padding: 10px;
 }
 
 /*プロフィール*/
@@ -195,7 +208,6 @@ h6 {
 }
 
 .prof-link {
-  /*padding-top: 25px;*/
   text-decoration: underline;
 }
 
@@ -313,12 +325,12 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding: 8px 0 5px 18%;
+  padding: 10px 0 5px 18%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding: 8px 0 5px 18%;
+  padding: 10px 0 5px 18%;
 
 }
 
@@ -358,7 +370,7 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding-top: 85px;
+  padding-top: 75px;
   padding-right: 1%;
   float: right;
   /*padding-left: 580px;*/
