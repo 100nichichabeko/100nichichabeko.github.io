@@ -184,6 +184,7 @@ header {
   color: #666;
   font-size: 20px;
   line-height: 20px;
+  padding-top: 50px;
 }
 
 .greet-content p {
@@ -202,14 +203,16 @@ h6 {
 }
 
 .start-link a {
-  font-size: 24px;
+  font-size: 26px;
   text-decoration: underline;
+  padding-bottom: 25px;
 }
 
 .kotoba {
-  font-size: 14px;
+  padding: 10px;
+  font-size: 16px;
+  color: gray;
 }
-
 /*プロフィール*/
 .profile {
   background-color: #feeee3;
