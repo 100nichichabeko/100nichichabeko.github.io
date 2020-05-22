@@ -224,15 +224,15 @@ h6 {
   padding: 0px 10px 100px 10px;
 }
 
-@media all and (max-width: 1034px)
-  {.wish-list {
+@media all and (max-width: 1034px) {
+  .wish-list {
   height: 1300px;
   padding: 0px 10px 100px 10px;
 }
   }
 
-@media all and (max-width: 914px)
-  {.wish-list {
+@media all and (max-width: 914px) {
+  .wish-list {
   height: 1550px;
   padding: 0px 0 100px 0;
 }
