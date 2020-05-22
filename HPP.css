@@ -1,7 +1,6 @@
  {
   margin: 0px;
   padding: 0px;
-  width: 480px;
 }
 
 body {
@@ -14,7 +13,7 @@ header {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 200px;
-  /*width: 480px;*/
+    width: 480px;
   margin: 0px;
   /*padding: 30px 10%  50px 10%;
   フッダーを固定する方法はこれです↓
@@ -118,7 +117,7 @@ header {
   font-size: 100px;
   font-family: "HG創英角ﾎﾟｯﾌﾟ体";
   /*padding-top: 50px;*/
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 
@@ -127,11 +126,11 @@ header {
 }
 
 .text1 {
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 .text2 {
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 .text1, .text2 {
@@ -144,6 +143,7 @@ header {
 .greeting {
  background-color: #fdeefd;
  height: 500px;
+   width:480px;
  display: block;
  padding: 0px 10px 100px 10px;
 }
@@ -184,6 +184,7 @@ h6 {
 .profile {
   background-color: #feeee3;
   height: 500px;
+    width:480px;
   padding: 0px 10px 100px 10px;
   text-align: center;
 }
@@ -199,6 +200,8 @@ h6 {
 
 .profile-icon img {
   margin: 10px;
+  height: 70%;
+  width:70%;
 }
 
 .profile-content h2 {
@@ -211,13 +214,13 @@ h6 {
 
 .profile-content p {
   color: #666;
-  font-size: 18px;
+  font-size: 16px;
   margin: 25px;
-
+  line-height: 16px;
 }
 
 .prof-link {
-  padding-top: 25px;
+  /*padding-top: 25px;*/
   text-decoration: underline;
 }
 
@@ -230,7 +233,8 @@ h6 {
 .wish-list {
   background-color: #fffee7;
   height: 2000px;
-  padding: 0px 3% 100px 3%;
+    width:480px;
+  padding: 0px 3%;
 }
 
 .wishlist-logo {
@@ -249,10 +253,11 @@ h6 {
 
 
 .inside-wish, .outside-wish {
-  /*float: left;
-  width: 50%;
-  padding: 20px 0 10px 0;*/
-  font-family: "UD デジタル 教科書体 NP-B";
+  float: center;
+  width:98%;
+  /*width: 50%;
+  padding: 20px 0 10px 0;
+  font-family: "UD デジタル 教科書体 NP-B";*/
 }
 
 
@@ -278,7 +283,8 @@ h6 {
 
 /*カレンダー*/
 .calender {
-  height: 1000px;
+  height: 700px;
+     width:480px;
   background-color: #e6fde8;
 }
 
@@ -294,8 +300,9 @@ h6 {
 .calender-content iframe {
   /*padding: 50px;
   padding-left: 100px;*/
-   width: 90%;
-        height: 650px;
+  padding-left: 1%;
+  width: 98%;
+  height: 500px;
 }
 
 @media all and (max-width: 767px)
@@ -314,7 +321,7 @@ footer {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 80px;
-  padding: 30px;
+  /*padding: 30px;*/
 }
 
 a {
@@ -325,12 +332,12 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding-left: 350px;
+  padding: 20px 0 5px 5%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding-left: 300px;
+  padding: 20px 0 5px 5%;
 
 }
 
@@ -342,16 +349,16 @@ a {
 
 .logo-icon1, .logo-icon2 {
   float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
 }
 
 .logo-icon1{
-  padding-left: 343px;
+  padding-left: 5%;
 }
 
 .logo-icon2 {
-   padding-left: 300px;
+   padding-left: 5%;
 }
 
 .logo00 {
@@ -372,5 +379,5 @@ a {
   font-size: 15px;
   padding-top: 50px;
   float: right;
-  padding-left: 580px;
+  /*padding-left: 580px;*/
 }
