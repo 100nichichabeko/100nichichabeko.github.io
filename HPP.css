@@ -46,13 +46,13 @@ header {
 
 
 .header-list {
- padding: 0 10%;
+ padding: 0 3%;
 }
 
 .header-list a {
-  font-size: 20px;
+  font-size: 18px;
   color: #191970;
-  /*padding: 5px 3%;*/
+  padding: 5px 3%;
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
@@ -221,8 +221,8 @@ h6 {
 }
 
 .wish-list ol {
-   list-style-type: decimal; 
-  /*padding-left: 80px;*/
+  padding-left: 20%;
+  list-style-type: decimal; 
 }
 
 
@@ -234,22 +234,19 @@ h6 {
 .inside-wish h2, .outside-wish h2 {
   font-size: 20px;
   margin: 8px;
-  padding-top: 10px;
-  padding-left: 70px;
+  padding-top: 15px;
+  padding-left: 10%;
 }
 
 .inside-wish li {
   font-size: 14px;
   line-height: 20px;
-  padding-left: 20%;
   color: #4d4d4d;
 }
 
 .outside-wish li {
- font-size: 14px;
+  font-size: 14px;
   line-height: 20px;
-  padding-left: 20%;
-  /*margin-top: 7px;*/
   color: #4d4d4d;
 }
 
