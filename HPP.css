@@ -14,7 +14,7 @@ header {
   color: #fff;
   height: 200px;
     width: 100%;
-  margin: 0px;
+  /*margin: 0px;*/
   
   /*フッダーを固定する方法はこれです↓
   position: fixed;
@@ -46,13 +46,13 @@ header {
 
 
 .header-list {
- padding: 0 10%;
+ padding: 0 5%;
 }
 
 .header-list a {
-  font-size: 20px;
+  font-size: 18px;
   color: #191970;
-  /*padding: 5px 3%;*/
+  padding: 5px 1%;
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
@@ -97,21 +97,21 @@ header {
   font-size: 100px;
   font-family: "HG創英角ﾎﾟｯﾌﾟ体";
   /*padding-top: 50px;*/
-  padding-left: 10%;
 }
 
 
 .text1, .count, .text2 {
   display: inline-block;
+  padding-left: 5%;
 }
 
 .text1 {
-  padding-left: 10%;
+  padding-top: 70px;
 }
 
-.text2 {
-  padding-left: 10%;
-}
+/*.text2 {
+  padding-left: 5%;
+}*/
 
 .text1, .text2 {
   font-size: 80px;
@@ -181,8 +181,8 @@ h6 {
 
 .profile-icon img {
   margin: 10px;
-  height: 10%;
-  width:10%;
+  height: 15%;
+  width:15%;
 }
 
 .profile-content h2 {
@@ -201,7 +201,7 @@ h6 {
 }
 
 .prof-link {
-  /*padding-top: 25px;*/
+  padding-top: 10px;
   text-decoration: underline;
 }
 
@@ -213,7 +213,7 @@ h6 {
 /*リスト*/
 .wish-list {
   background-color: #fffee7;
-  height: 1500px;
+  height: 1300px;
     width: 100%;
   padding: 0px 3%;
 }
@@ -229,6 +229,7 @@ h6 {
 
 .wish-list ol {
   list-style-type: decimal;
+  padding-left: 15%;
   /*padding-left: 80px;*/
 }
 
@@ -248,17 +249,15 @@ h6 {
 }
 
 .inside-wish li {
-  font-size: 12px;
-  line-height: 18px;
-  padding-left: 20%;
+  font-size: 18px;
+  line-height: 20px;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
 
 .outside-wish li {
- font-size: 12px;
-  line-height: 18px;
-  padding-left: 20%;
+ font-size: 18px;
+  line-height: 20px;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
@@ -289,10 +288,13 @@ h6 {
 
 .calender-content iframe {
   /*padding: 50px;
-  padding-left: 100px;*/
-  padding-left: 1%;
+  padding-left: 100px;
+  padding-left: 1%;*/
+  align-item: center;
   width: 98%;
   height: 500px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 @media all and (max-width: 767px)
@@ -340,16 +342,18 @@ a {
 
 .logo-icon1, .logo-icon2 {
   float: left;
+  height: 8%;
+  width: 8%;
   /*padding-top: 10px;
   padding-bottom: 10px;*/
 }
 
 .logo-icon1{
-  padding-left: 20%;
+  padding-left: 19%;
 }
 
 .logo-icon2 {
-   padding-left: 20%;
+   padding-left: 19%;
 }
 
 .logo00 {
@@ -368,8 +372,9 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding-top: 30px;
+  padding: 30px 0 5px 40%;
+  /*padding-top: 30px;
   padding-left: 50%;
-  /*float: right;*/
+  float: right;*/
   /*padding-left: 580px;*/
 }
