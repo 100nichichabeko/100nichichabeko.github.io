@@ -313,6 +313,8 @@ h6 {
   font-family: "HG創英角ｺﾞｼｯｸ体";
   font-size: 24px;
   color: red;
+  display: inline-block;
+  transform: skewX(-20deg);
 }
 
 /*カレンダー*/
