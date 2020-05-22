@@ -287,10 +287,6 @@ h6 {
   width: 90%;
 }
 
-.calender-content {
-  height: 1000px;
-}
-
 
 @media all and (max-width: 767px)
     { .GoogleCalendar iframe
