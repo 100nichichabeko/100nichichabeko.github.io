@@ -226,6 +226,25 @@ h6 {
 }
 
 
+@media all and (max-width: 1034px) {
+  .wish-list {
+  height: 1300px;
+  padding: 0px 10px 100px 10px;
+}
+  }
+
+@media all and (max-width: 914px) {
+  .wish-list {
+  height: 1550px;
+  padding: 0px 0 100px 0;
+}
+
+.wish-list ol {
+  padding-left: 10px;
+}
+  }
+
+
 .wishlist-logo {
   color: #fbb568;
   font-size: 40px;
