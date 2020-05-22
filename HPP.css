@@ -25,14 +25,9 @@ header {
 }
 
 .header-logo {
- height: 140px; 
- width: 100%;
+  width: %;
   padding: 15px 0;
 }
-
-.header-box {
- height: 130px;
- width : 97%;
 
 /*.box14 a {
     /*padding: 0.2em 0.5em;
@@ -74,7 +69,7 @@ header {
 .header-list a {
   font-size: 20px;
   color: #191970;
-  padding: 5px 3%;
+  padding: 5px 4%;
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
