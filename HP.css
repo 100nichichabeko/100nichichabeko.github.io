@@ -166,7 +166,7 @@ header {
  background-color: #fdeefd;
  height: 500px;
  display: block;
- padding: 0px 20px 150px 20px;
+ padding: 0px 20px 160px 20px;
 }
 
 
@@ -192,7 +192,7 @@ header {
 
 .greet-content h1 {
   font-size: 35px;
-  padding: 15px 0;
+  padding-top: 15px;
 }
 
 h6 {
@@ -201,9 +201,13 @@ h6 {
   /*padding-bottom: 12px;*/
 }
 
-.start-link {
+.start-link a {
   font-size: 18px;
   text-decoration: underline;
+}
+
+.kotoba {
+  font-size: 14px;
 }
 
 /*プロフィール*/
