@@ -1,6 +1,7 @@
  {
   margin: 0px;
   padding: 0px;
+  widht: 480px;
 }
 
 body {
@@ -96,6 +97,7 @@ header {
 .countdown {
   /*background-color: #feeee3;*/
   height: 600px;
+    width: 480px;
   color: #ed145b;
   font-size: 32px;
   text-align: center;
@@ -200,8 +202,8 @@ h6 {
 
 .profile-icon img {
   margin: 10px;
-  height: 70%;
-  width:70%;
+  height: 10%;
+  width:10%;
 }
 
 .profile-content h2 {
@@ -232,7 +234,7 @@ h6 {
 /*リスト*/
 .wish-list {
   background-color: #fffee7;
-  height: 2000px;
+  height: 1800px;
     width:480px;
   padding: 0px 3%;
 }
@@ -267,8 +269,8 @@ h6 {
 }
 
 .inside-wish li, .outside-wish li {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 14px;
   /*margin-top: 7px;*/
   color: #4d4d4d;
 }
@@ -277,7 +279,7 @@ h6 {
 .inside-wish span, .outside-wish span{
   font-weight: bold;
   font-family: "HG創英角ｺﾞｼｯｸ体";
-  font-size: 20px;
+  font-size: 18px;
   color: red;
 }
 
@@ -321,6 +323,7 @@ footer {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 80px;
+  width: 480px;
   /*padding: 30px;*/
 }
 
@@ -332,19 +335,19 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding: 20px 0 5px 5%;
+  padding: 10px 0 5px 30%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding: 20px 0 5px 5%;
+  padding: 10px 0 5px 30%;
 
 }
 
 .logo1, .logo2 {
   float: left;
-  padding-bottom: 0px;
-  padding-right: 0px;
+  /*padding-bottom: 0px;
+  padding-right: 0px;*/
 }
 
 .logo-icon1, .logo-icon2 {
@@ -354,11 +357,11 @@ a {
 }
 
 .logo-icon1{
-  padding-left: 5%;
+  padding-left: 30%;
 }
 
 .logo-icon2 {
-   padding-left: 5%;
+   padding-left: 30%;
 }
 
 .logo00 {
@@ -377,7 +380,7 @@ a {
 
 .logo3 {
   font-size: 15px;
-  padding-top: 50px;
+  padding-top: 30px;
   float: right;
   /*padding-left: 580px;*/
 }
