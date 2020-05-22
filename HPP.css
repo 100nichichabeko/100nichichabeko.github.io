@@ -16,17 +16,22 @@ header {
     width: 100%;
   margin: 0px;
   
-  /*padding: 30px 10%  50px 10%;
-  フッダーを固定する方法はこれです↓
+  /*フッダーを固定する方法はこれです↓
   position: fixed;
     top: 0;
   z-index: 10;*/
 }
 
+.header-box {
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+}
+
 .header-logo {
   height: 120px;
   width: 98%;
-  padding: 15px 0;
+  padding: 15px 1%;
 }
 
 /*.box14 a {
@@ -38,43 +43,21 @@ header {
     padding-bottom: 10px;
 }*/
 
-/*.header-logo {
-  color:#fffff9;
-  font-size: 100px;
-  padding: 50px 30px;
-  text-align: center;
-  letter-spacing: 5px;
-}*/
 
 
-/*.hedder-logo span {
-  margin: 10px;
-}*/
-
-
-
-/*.header-list {
-  padding: 0 250px;
-}*/
-
-/*なぜかカーソル合わせの色変更が変わりません！！*/
-
-
-
-/*.header-list {
- padding: 0% 10%;
-
-}*/
+.header-list {
+ padding: 0 10%;
+}
 
 .header-list a {
   font-size: 20px;
   color: #191970;
-  padding: 5px 3%;
+  /*padding: 5px 3%;*/
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
-  margin: 20px 4px 0 0;
+  /*margin: 20px 4px 0 0;*/
 }
 
 .header-list a:hover {
