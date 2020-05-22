@@ -14,7 +14,7 @@ header {
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#60b0e6 3px, #60b0e6 7px);
   color: #fff;
   height: 150px;
-  padding: 30px 10%  70px 10%;
+  padding: 30px 1%  70px 1%;
   /*フッダーを固定する方法はこれです↓
   position: fixed;
     top: 0;
@@ -22,7 +22,7 @@ header {
 }
 
 .header-box {
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -43,44 +43,21 @@ header {
     padding-bottom: 10px;
 }*/
 
-/*.header-logo {
-  color:#fffff9;
-  font-size: 100px;
-  padding: 50px 30px;
-  text-align: center;
-  letter-spacing: 5px;
-}*/
 
 
-/*.hedder-logo span {
-  margin: 10px;
-}*/
-
-
-
-/*.header-list {
-  padding: 0 250px;
-}*/
-
-/*なぜかカーソル合わせの色変更が変わりません！！*/
-
-
-
-/*.header-list {
- padding: 0% 10%;
-
-}*/
+.header-list {
+  padding: 0 5%;
+}
 
 .header-list a {
   font-size: 20px;
   color: #191970;
-  padding: 5px 8%;
+  padding: 5px 6%;
   display: inline-block;
   list-style: none;
   background: repeating-linear-gradient(-45deg, #6495ed, #6495ed 3px,#64b6ed 3px, #64b6ed 7px);
   border: dashed 2px white;
-  margin-top: 20px;
-  margin-left: 0.5%;
+  margin-top: 10px;
 }
 
 .header-list a:hover {
@@ -142,7 +119,7 @@ header {
  background-color: #fdeefd;
  height: 500px;
  display: block;
- padding: 0px 150px 150px 150px;
+ padding: 0px 20px 150px 20px;
 }
 
 
@@ -181,7 +158,7 @@ h6 {
 .profile {
   background-color: #feeee3;
   height: 500px;
-  padding: 0px 100px 150px 100px;
+  padding: 0px 0 150px 0;
   text-align: center;
 }
 
@@ -209,9 +186,7 @@ h6 {
 .profile-content p {
   color: #666;
   font-size: 20px;
-  margin: 25px;
-
-}
+  margin: 25px 0;
 
 .prof-link {
   padding-top: 25px;
@@ -226,9 +201,27 @@ h6 {
 /*リスト*/
 .wish-list {
   background-color: #fffee7;
-  height: 1000px;
-  padding: 0px 50px 100px 50px;
+  height: 1050px;
+  padding: 0px 10px 100px 10px;
 }
+
+@media all and (max-width: 1034px)
+  {.wish-list {
+  height: 1300px;
+  padding: 0px 10px 100px 10px;
+}
+  }
+
+@media all and (max-width: 914px)
+  {.wish-list {
+  height: 1550px;
+  padding: 0px 0 100px 0;
+}
+
+.wish-list ol {
+  padding-left: 10px;
+}
+  }
 
 .wishlist-logo {
   color: #fbb568;
@@ -291,7 +284,6 @@ h6 {
 
 .calender-content iframe {
   padding: 50px;
-  padding-left: 100px;
   width: 90%;
 }
 
@@ -323,12 +315,12 @@ a {
 /*もし画像にリンク貼れなかったらアイコンと文字逆にした方がいいと思う！*/
 .logo1 {
   font-size: 20px;
-  padding-left: 350px;
+  padding-left: 30%;
 }
 
 .logo2 {
   font-size: 20px;
-  padding-left: 300px;
+  padding-left: 20%;
 
 }
 
@@ -345,13 +337,12 @@ a {
 }
 
 .logo-icon1{
-  padding-left: 343px;
+  padding-left: 29.3%;
 }
 
 .logo-icon2 {
-   padding-left: 300px;
+   padding-left: 20%;
 }
-
 .logo00 {
   clear:both;
   /*クリアーを使うと一瞬で上のfloar: left;の周り込みが消えるよ。*/
@@ -370,5 +361,4 @@ a {
   font-size: 15px;
   padding-top: 50px;
   float: right;
-  padding-left: 580px;
 }
